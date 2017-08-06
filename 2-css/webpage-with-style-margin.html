@@ -1,0 +1,95 @@
+<!-- margin set spaces all around the box -->
+<!-- margin: top&bottom left&right -->
+<!-- margin: top right bottom left-->
+<!-- margin-left: *some pixel*-->
+
+<html>
+
+	<head>
+	
+		<title>Webpage With Style</title>
+		
+		<style type="text/css">
+
+			.red {
+			
+				color:red;
+			
+			}
+			
+			.large {
+				
+				font-size:200%;
+				
+			}
+			
+			#green { 
+			
+				color:green;
+			
+			}
+			
+			.underlined {
+				
+				text-decoration:underline;
+				
+			}
+			
+			#first-section	{
+				color:blue;
+				background-color:#89F2AA;
+				width:200px;
+				margin:100px 50px 20px 10px;
+			}
+			
+			#second-section {
+				background-color:#BAA7D6;
+				width:400px;
+			}
+			
+			#third-section {
+				background-color:#BAD7D6;
+				width:300px;
+				margin:50px 20px;
+				<!-- Or -->
+				<!-- margin: 50px 20px 50px 20px -->
+				<!-- Or -->
+				<!-- margin-top: 50px -->
+				<!-- margin-bottom: 50px -->
+				<!-- margin-left: 20px -->
+				<!-- margin-right: 20px -->
+			}
+						
+			.clear-float {
+				clear:both;
+			}
+			
+		</style>
+	
+	</head>
+
+	<body>
+	
+		<div id="first-section">
+		
+			<p>She sells sea shells by the seashores.</p>
+		
+			<p>Wow, I love internal CSS!</p>
+		
+		</div>
+		
+		<div id="second-section">
+			<p id="green">This is text with id. <span class="underlined">And this text is underlined.</span></p>
+			
+			<h1 class="red">CSS is cool</h1>
+		</div>
+		
+		<div id="third-section">
+		
+			<p class="clear-float">This paragraph is another paragraph</p>
+			
+		</div>
+				
+	</body>
+	
+</html>

@@ -1,0 +1,344 @@
+			//comment 
+			#topbar {
+			
+				width: 1050px;
+				margin: 0 auto; <!-- This is to center entire div -->
+				height: 40px;
+				
+			}
+			
+			body {
+			
+				margin: 0;
+				padding: 0;
+				font-family: Helvetica, Arial, sans-serif;
+				
+			}
+			
+			#logo {
+			
+				margin: 8px;
+				width: 90px;
+				float: left;
+				margin-right: 8px;
+			
+			}
+			
+			#signin-div {
+			
+			}
+			
+			.topbar-section {
+			
+				font-color: #C1C1C1;
+				float: left;
+				border-left: 1px #CCCCCC solid;
+				height: 42px;
+				
+			}
+			
+			#signin-image {
+			
+				float: left;
+				width: 25px;
+				margin: 11px 15px;
+			
+			}
+			
+			#signin-text {
+				
+				font-weight: bold;
+				font-size:90%;
+				position: relative;
+				top: 14px;
+				padding-right: 50px;
+				
+			}
+			
+			.topbar-menu {
+				
+				font-weight: bold;
+				font-size: 90%;
+				padding: 15px 15px 0 15px;
+				height: 27px;
+			}
+			
+			#more-arrow {
+			
+				width: 10px;
+				margin-left: 25px;
+			
+			}
+			
+			#search-box {
+				
+				float:left;
+				background-color: #E4E4E4;
+				border: none;
+				font-weight: bold;
+				font-size: 14px;
+				padding: 5px;
+				margin: 5px 0 5px 5px;
+			
+			}
+			
+			#magnifying-glass {
+			
+				height:26px;
+				margin-top: 5px;
+			
+			}
+			
+			.clear {
+			
+				clear:both;
+			
+			}
+			
+			#menu-bar-container {
+			
+				border-top: 1px #CCCCCC solid; 
+				background-color: #BB1919;
+				width: 100%;
+				height: 70px;
+			
+			}
+			
+			#menu-bar {
+			
+				width: 1050px;
+				margin: 0 auto;
+			
+			}
+			
+			h1 {
+			
+				padding: 8px;
+				margin: 0;
+				color: white;
+				font-size: 40px;
+				font-weight: normal;
+				padding-top: 10px;
+				float: left;
+			
+			}
+			
+			#local-news {
+			
+				float: right;
+				border: 1px #BB4545 solid;
+				width: 250px;
+				position: relative;
+				top: 8px;
+				padding: 3px 5px 0 5px;
+				margin: 5px 60px 0 0;
+
+			}
+			
+			#local-news a{
+			
+				color: white;
+				text-decoration: none;
+				font-size: 30px;
+
+			
+			}
+			
+			#local-news a:hover {
+			
+				text-decoration: underline;
+			
+			}
+			
+			#menu-bar-2-container {
+				
+				background-color: #A91717;
+				width: 100%;
+			
+			}
+			
+			#menu-bar-2 {
+			
+				width: 1050px;
+				margin: 0 auto;
+				height: 30px;
+			
+			}
+			
+			#menu-bar-2 a {
+			
+				color: white;
+				text-decoration: none;
+				padding: 0 10px;
+				border-right: 1px #BB4545 solid;
+				font-size: 14px;
+				position: relative;
+				top: 5px;
+			
+			}
+			
+			#menu-bar-2 a:hover {
+			
+				text-decoration: underline;
+			
+			}
+			
+			.no-border {
+			
+				border: none !important;
+			
+			}
+			
+			#down-arrow {
+				
+				height: 6px;
+				position: relative;
+				left: -7px;
+				top: 3px;
+			
+			}
+			
+			#page-container {
+			
+				width: 1050px;
+				margin: 0 auto;	
+			
+			}
+			
+			h2 {
+			
+				font-weight: normal;
+				margin-top: 30px;
+				font-size: 20px;
+				border-bottom: 3px solid #BB1919;
+				width: 105px;
+			}
+			
+			h3 a{
+			
+				color: black;
+				font-size: 30px;
+				text-decoration: none;
+			
+			}
+			
+			h3 a:hover {
+			
+				color: #1167A8;
+			
+			}
+			
+			#article-summary {
+			
+				color: #5F6A6F;
+				width: 250px;
+				font-size: 15px;
+				float:left;				
+				
+			}
+			
+			.clock {
+				
+				height: 15px;
+				position: relative;
+				top: 2px;
+				
+			}
+			
+			.topic-link {
+				
+				text-decoration: none;
+				color: #A91717;
+				
+			}
+			
+			#article-summary a:hover {
+				
+				color: #1167A8;
+			
+			}
+			
+			#comment {
+			
+				text-decoration: none;
+				color: black !important;
+				font-weight: bold;
+			
+			}
+			
+			#article-hr {
+			
+				borader-top: 1px solid #A91717;
+				width: 40px;
+			
+			}
+			
+			#article-container {
+			
+				float: left;
+				width: 600px;
+				border-right: 1px #CCCCCC solid; 
+				padding: 20px;
+			
+			}
+			
+			#main-article-image {
+				
+				width: 330px;
+				margin-left: 20px;
+			
+			}
+			
+			
+			.article-link {
+				
+				text-decoration: none;
+				color: black;
+				
+			}
+			
+			#watch-listen {
+				
+				margin-left: 10px;
+				width: 380px;
+				float: right;
+			
+			}
+			
+			h4 {
+			
+				font-size: 25px;
+				font-weight: normal;
+
+			}
+			
+			.article-side-image {
+			
+				float: left;
+				margin-right: 10px;
+				
+			}
+			
+			.watch-listen-link {
+			
+				text-decoration: none;
+				color: black;
+				font-weight: bold;
+				font-size: 18px;
+				
+			}
+			
+			.watch-listen-link:hover {
+				
+				color: #1167A8;
+			
+			}
+			
+			.side-article {
+			
+				float: right;
+				width: 250px;
+				position: relative;
+				top: -15px;
+			
+			}
